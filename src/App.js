@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ProjectDetail from './components/ProjectDetail';
+import Footer from './components/Footer';
 import NotFound from './pages/NotFound';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer /> {/* Add Footer here */}
     </Router>
   );
 };
