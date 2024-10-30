@@ -8,10 +8,9 @@ const Header = () => {
       <h1>My Portfolio</h1>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><Link to="/">About</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>

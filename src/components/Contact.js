@@ -8,8 +8,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log({ name, email, message });
+    alert('Thank you for your message!');
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
