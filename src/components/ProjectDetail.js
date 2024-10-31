@@ -7,8 +7,11 @@ const ProjectDetail = () => {
   
   // Example project details (you would typically fetch this from an API or state)
   const project = {
-    1: { title: 'Project One', description: 'Detailed description of Project One' },
-    2: { title: 'Project Two', description: 'Detailed description of Project Two' },
+    1: { title: 'Ohana Swimwear', description: 'Detailed description of Project One' },
+    2: { title: 'Riziki Foundation', description: 'Detailed description of Project Two' },
+    3: { title: 'Vedman Capital Limited', description: 'Detailed description of Project One' },
+    4: { title: 'Eventhub', description: 'Detailed description of Project One' },
+    5: { title: 'Vedman Capital Limited', description: 'Detailed description of Project One' },
   }[id];
 
   if (!project) {
