@@ -18,10 +18,10 @@ const Footer = () => {
         <div className="social-media">
           <h4>Connect with me</h4>
           <ul>
-            <li><a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
-            <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
-            <li><a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><FaTwitter /></a></li>
-            <li><a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
+            <li><a href="https://github.com/ndakalajulius" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
+            <li><a href="https://linkedin.com/in/juliusndakala" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
+            <li><a href="https://twitter.com/juliusndakala" target="_blank" rel="noopener noreferrer"><FaTwitter /></a></li>
+            <li><a href="https://instagram.com/juliusndakala" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
           </ul>
         </div>
       </div>
