@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const projects = [
-    { title: 'Project One', description: 'Description of project one', id: 1 },
-    { title: 'Project Two', description: 'Description of project two', id: 2 },
+    { title: 'Ohana swimware', description: '',  link : '', id: 1 },
+    { title: 'Riziki Foundation', description: '', id: 2 },
+    { title: 'Vedman Capital Limited', description: '', link:'https://vedmangroup.com/', id: 3 },
+    { title: ' Event hub ', description: '', id: 4 },
   ];
 
   return (
@@ -18,6 +20,7 @@ const Projects = () => {
               <h3>{project.title}</h3>
             </Link>
             <p>{project.description}</p>
+            
           </li>
         ))}
       </ul>
